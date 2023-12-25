@@ -1,0 +1,125 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-12-25T05:27:04.517Z",
+    "end": "2023-12-25T05:27:47.127Z",
+    "duration": 42610,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7e93e06e-dd68-414f-b592-a8d664aae703",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Tests\\LoginPageTest2.cy.js",
+      "file": "cypress\\e2e\\Tests\\LoginPageTest2.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "805bf54c-488a-4ba2-a7fc-0e6fded013ac",
+          "title": "OrangeHRM",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "LoginTest",
+              "fullTitle": "OrangeHRM LoginTest",
+              "timedOut": null,
+              "duration": 16595,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      \"\\\\LoginPageTest2.cy.js\\\\submitButton.png\",\n      \"\\\\LoginPageTest2.cy.js\\\\afterLogin.png\"\n    ]\n  ]\n}",
+              "code": "url.openUrl();\nloginPage.loginProcess();",
+              "err": {},
+              "uuid": "0669c2ba-f47c-40c0-b782-27f9c3a7d3b1",
+              "parentUUID": "805bf54c-488a-4ba2-a7fc-0e6fded013ac",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Go to the PIM",
+              "fullTitle": "OrangeHRM Go to the PIM",
+              "timedOut": null,
+              "duration": 24000,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      \"\\\\LoginPageTest2.cy.js\\\\submitButton (1).png\",\n      \"\\\\LoginPageTest2.cy.js\\\\afterLogin (1).png\",\n      \"\\\\LoginPageTest2.cy.js\\\\afterPIMclick.png\"\n    ]\n  ]\n}",
+              "code": "url.openUrl();\nloginPage.loginProcess();\ndashBoardPage.ClickOnPIM();",
+              "err": {},
+              "uuid": "62364daa-94cb-4153-9036-87900117583f",
+              "parentUUID": "805bf54c-488a-4ba2-a7fc-0e6fded013ac",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0669c2ba-f47c-40c0-b782-27f9c3a7d3b1",
+            "62364daa-94cb-4153-9036-87900117583f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 40595,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportPageTitle": "custom-title",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "saveAllAttempts": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}

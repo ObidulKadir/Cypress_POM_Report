@@ -1,0 +1,8 @@
+{
+    "userName_xpath": "//body/div[@id='app']/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/div[2]/input[1]",
+    "password_xpath": "//body/div[@id='app']/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[2]/div[1]/div[2]/input[1]",
+    "submit_xpath": "//body/div[@id='app']/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[3]/button[1]",
+
+    "user_value":"Admin",
+    "password_value": "admin123"
+}
